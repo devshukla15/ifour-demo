@@ -1,0 +1,107 @@
+.main {
+  padding: 5px 0px 0px 10px;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+.icon {
+  display: flex;
+  position: relative;
+  bottom: 6px;
+  right: 25px;
+}
+.searchbox::placeholder {
+  padding-left: 15px;
+}
+.form-inputs {
+  display: flex;
+  gap: 15px;
+}
+.search-icon {
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dateClass {
+  width: 235px;
+}
+.heading-right {
+  border: #ff3d00 solid 1px;
+  display: flex;
+  color: #ff3d00;
+  align-items: center;
+  gap: 5px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  background: rgba(255, 61, 0, 0.1);
+}
+
+.heading-right-green {
+  border: #53d86a solid 1px;
+  display: flex;
+  color: #53d86a;
+  align-items: center;
+  gap: 5px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  background: #d7e5da;
+}
+
+.heading-right-gray {
+  border: #b8b9bc solid 1px;
+  display: flex;
+  color: #b8b9bc;
+  align-items: center;
+  gap: 5px;
+  font-family: "Roboto";
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  background: #ececed;
+}
+b {
+  color: #b8b9bc;
+}
+.date-card {
+  color: #ff3d00;
+}
+.button {
+  border: none;
+  background: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #2188d9;
+}
+
+.circle {
+  border-radius: 5px;
+  background: #ff3d00;
+  width: 11px;
+  display: flex;
+  height: 11px;
+}
+.circle2 {
+  border-radius: 5px;
+  background: #53d86a;
+  width: 11px;
+  display: flex;
+  height: 11px;
+}
+.circle3 {
+  border-radius: 5px;
+  background: #b8b9bc;
+  width: 11px;
+  display: flex;
+  height: 11px;
+}
